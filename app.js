@@ -30,5 +30,35 @@ function agregarAmigo() {
         console.log(amigos);
         //limpiando el input
         nombre.value = "";
+        nombre.focus();
+        listarAmigos();
+        
     }
+}
+
+// funcion para listar id listaAmigos en el html    
+function listarAmigos() {
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+
+    for (let i = 0; i < amigos.length; i++) {
+        //crear una lista de amigos
+        let item = document.createElement("li");
+        //mostrar la lista de amigos en el html
+        item.textContent = amigos[i];
+        //listar los amigos
+        listaAmigos.appendChild(item);
+    }
+}
+//funcion para sortear amigos siempre que el numero sea par
+function sortearAmigo() {
+    //validar que el numero de amigos sea par
+    if (amigos.length % 2 !== 0) {
+        alert("Por favor ingrese un numero par de amigos");
+        return;
+    }
+    //creando el sorteo de amigos
+    let amigosSorteados = amigos[Math.floor(Math.random() * amigos.length)];
+    let resultado =document.getElementById("resultado");
+    resultado.innerHTML = `Tu amigo secreto es: ${amigosSorteados}`; 
 }
