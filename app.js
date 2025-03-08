@@ -1,5 +1,5 @@
 //delcarando arreglo que va a contener los nombres de los amigos secretos ingresado//
-Let Amigos_Ingresados = [];
+let Amigos_Ingresados = [];
 
 // cosas que se requieren hacer 
 // 1. se debe ingresar el nombre de los amigos secretos
