@@ -11,7 +11,7 @@ El usuario deberá agregar nombres mediante un campo de texto y un botón "Adici
 
 ## 	:arrow_forward: Ejecución:
   
-  Para ejecutar el sistema debes ```ejecutar el html de la carpeta del proyecto o bien puedes revisarlo en el siguiente [link](https://winnerinc.github.io/00--Amigo-secreto/) ``` 
+  Para ejecutar el sistema debes ```ejecutar el html de la carpeta del proyecto o bien puedes revisarlo en el siguiente ``` [link](https://winnerinc.github.io/00--Amigo-secreto/)  
 
 ## :hammer:Funcionalidades del proyecto
 
