@@ -1,7 +1,7 @@
 <h1 align="center"> Desafío Amigo Secreto Alura Latam</h1>
 
 <p align="center"> 
-<img src=/>
+<img src="https://github.com/WinnerInc/00--Amigo-secreto/blob/main/assets/amigo_secreto.JPG?raw=true"/>
 </p>
 
 ## 📖 Descripción del Proyecto:
