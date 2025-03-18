@@ -16,14 +16,10 @@ function agregarAmigo() {
     console.log(AmigoSecreto);
     //validando que el nombre no este vacio
     if (AmigoSecreto === "") {
-        alert("Por favor ingrese un nombre");
+        alert("Por favor, inserte un nombre.");
         return;
     }
-    //validando que el nombre no este repetido
-    else if (amigos.includes(AmigoSecreto)) {
-        alert("Este nombre ya fue ingresado");
-        return;
-    }
+    
     //agregando el nombre al arreglo de amigos  
     else {
         amigos.push(AmigoSecreto);
@@ -52,21 +48,20 @@ function listarAmigos() {
 }
 //funcion para sortear amigos siempre que el numero sea par
 function sortearAmigo() {
-    //validar que el numero de amigos sea mayor a 0 y numero pár
+    //validar que el numero de amigos sea mayor a 0 y mayor a 2
     if (amigos.length === 0) {
         alert("No hay amigos para sortear");
         return;
     }
-    else if (amigos.length % 2 !== 0) {
-        alert("El número de amigos debe ser par");
+    else if (amigos.length < 2) {
+        alert("Debes tener al menos 2 amigos para sortear");
         return;
     }
     //creando el sorteo de amigos
     let amigosSorteados = amigos[Math.floor(Math.random() * amigos.length)];
     let resultado =document.getElementById("resultado");
     resultado.innerHTML = `Tu amigo secreto es: ${amigosSorteados}`; 
-    //limpar la lista cuando se hayan sorteado todos los amigos
-    amigos = [];
+    
     //limpiar la lista de amigos
     let listaAmigos = document.getElementById("listaAmigos");
     listaAmigos.innerHTML = "";
