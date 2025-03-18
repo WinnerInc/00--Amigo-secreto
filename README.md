@@ -5,7 +5,10 @@
 </p>
 
 ## 📖 Descripción del Proyecto:
-  Proyecto para cumplir el primer desafío del curso de Lógica de Programación de Oracle Next Education. Este desafío contempla el desarrollo de una aplicación que permita ingresar nombres de amigos y realizara un sorteo aleatorio para determinar quién es el amigo secreto.
+ Como parte del curso de programación de Alura Latam el proyecto consiste en desarrollar una aplicación que permita a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
+
+El usuario deberá agregar nombres mediante un campo de texto y un botón "Adicionar". Los nombres ingresados se mostrarán en una lista visible en la página, y al finalizar, un botón "Sortear Amigo" seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
+
 ## 	:arrow_forward: Ejecución:
   
   Para ejecutar el sistema debes ```ejecutar el html de la carpeta del proyecto``` 
