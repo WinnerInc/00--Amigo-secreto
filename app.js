@@ -50,12 +50,12 @@ function sortearAmigo() {
     }
    
     let amigosSorteados = amigos[Math.floor(Math.random() * amigos.length)];
-    let resultado =document.getElementById("resultado");
+    let resultado = document.getElementById("resultado");
     resultado.innerHTML = `Tu amigo secreto es: ${amigosSorteados}`; 
     
    
-    let listaAmigos = document.getElementById("listaAmigos");
-    listaAmigos.innerHTML = "";
+    let LimpiarLista = document.getElementById("listaAmigos");
+    LimpiarLista.innerHTML = "";
 
  
 }
