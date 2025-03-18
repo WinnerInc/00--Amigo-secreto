@@ -39,5 +39,5 @@ El usuario deberá agregar nombres mediante un campo de texto y un botón "Adici
 
 <img width="115" alt="El Autor" src="https://github.com/WinnerInc/00--Amigo-secreto/blob/main/assets/perfil.jpg" />
  <br><sub>Roberto Retamal Garrido</sub>
- <br><sub>(https://github.com/cjfloresvera)</sub>  
+ <br><sub>(https://github.com/WinnerInc)</sub>  
 
