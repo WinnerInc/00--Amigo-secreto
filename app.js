@@ -57,8 +57,6 @@ function sortearAmigo() {
     let listaAmigos = document.getElementById("listaAmigos");
     listaAmigos.innerHTML = "";
 
-    
-    
-    
+ 
 }
 
